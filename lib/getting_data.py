@@ -28,3 +28,4 @@ def obtain_data():
 
     return all_pages_data
 
+print(obtain_data())

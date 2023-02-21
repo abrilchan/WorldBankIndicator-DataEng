@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-import getting_data as gd
+from . import getting_data as gd
 import pandas as pd 
-import country_iso_series as iso
-import series_population as sp
-import series_years as sy
-import series_countries as sc
+from . import country_iso_series as iso
+from . import series_population as sp
+from . import series_years as sy
+from . import series_countries as sc
 
 dict_data = {
     'Country' : pd.Series(sc.get_country_value()),

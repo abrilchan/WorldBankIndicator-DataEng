@@ -1,9 +1,9 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-import getting_data as gd
+from . import getting_data as gd
 import pandas as pd 
-import country_iso_series as iso
+from . import series_countries as iso
 
 def get_country_value():
     url_grl ="http://api.worldbank.org/v2/country/all/indicator/SP.POP.TOTL?format=json&page="

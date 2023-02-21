@@ -1,7 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
-
-import getting_data as gd
+from . import getting_data as gd
 import pandas as pd 
 
 def get_country_iso():
@@ -17,3 +16,5 @@ def get_country_iso():
             list_iso3.append(dics_data[i_num]['countryiso3code'])
 
     return list_iso3
+
+print(get_country_iso())
