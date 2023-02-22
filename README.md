@@ -24,7 +24,7 @@ Este proyecto fue realizado como parte del proceso de reclutamiento de [Ventagiu
 |  ├── WorldBank_Pipeline.ipynb
 ```
 
-[WorldBank_Pipeline](Notebooks/WorldBank_Pipeline.ipynb) contiene una Notebook con el proceso lógico que se siguió para completar el proyecto.
+[WorldBank_Pipeline_Large](Notebooks/WorldBank_Pipeline_Large.ipynb) contiene una Notebook con el proceso lógico que se siguió para completar el proyecto.
 <br>
 El directorio [lib](lib) contiene el código modularizado.
 
